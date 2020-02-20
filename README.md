@@ -28,14 +28,15 @@
   truffle migrate --reset
 ```
 
-* Enter into truffle console to get contract details
+* Enter into truffle console and get contract details
 ```
   truffle console
-  <ContractName>.abi
-  JSON.stringfy(<ContractName>.abi)
-  <ContarctName>.address
-  let contract = <ContractName>.at(<ContractName>.address)
-  app.<methodName>("value");
-  <ContractName>.deployed().then(function(instance){app = instance})
-  app.<methodName>(23)//call method on contract class
+  >
+    <ContractName>.abi
+    JSON.stringfy(<ContractName>.abi)
+    <ContarctName>.address
+    let contract = <ContractName>.at(<ContractName>.address)
+    app.<methodName>("value");
+    <ContractName>.deployed().then(function(instance){app = instance})
+    app.<methodName>(23)//call method on contract class
 ```
