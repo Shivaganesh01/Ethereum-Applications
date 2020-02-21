@@ -1,4 +1,4 @@
-# Ethereum-React-App
+# Ethereum-Applications=
 
 * Install Truffle (v5.0.5)
 ```
